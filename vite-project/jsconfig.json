@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Base path for resolving non-relative module imports
+    "paths": {
+      "@/*": ["src/*"] // Alias configuration
+    }
+  },
+  "include": ["src"] // Include the source directory for the IDE
+}
